@@ -4,9 +4,9 @@
 
 ### 🚀 Building the Technologies of Tomorrow
 
-[![Official Website](https://img.shields.io/badge/Website-OMVEXORX.in-blue?style=for-the-badge&logo=google-chrome)](https://omvexorx.in/)
-[![Global Website](https://img.shields.io/badge/Global-OMVEXORX.com-purple?style=for-the-badge&logo=internet-explorer)](https://omvexorx.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-OMVEXORX-181717?style=for-the-badge&logo=github)](https://github.com/OMVEXORX)
+[![Official Website](https://img.shields.io/badge/Website-omvexorx.in-blue?style=for-the-badge&logo=google-chrome)](https://omvexorx.in)
+[![Global Website](https://img.shields.io/badge/Global-omvexorx.com-purple?style=for-the-badge&logo=internet-explorer)](https://omvexorx.com)
+[![GitHub](https://img.shields.io/badge/GitHub-omvexorx-181717?style=for-the-badge&logo=github)](https://github.com/omvexorx)
 [![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Open--Source-orange?style=for-the-badge)](#-licensing--contributing)
 
 ---
@@ -86,37 +86,16 @@ Our work spans multiple programming languages, operating systems, platforms, and
 ## 🏗️ OMVEXORX Technology Ecosystem
 
 ```mermaid
-flowchart TB
-    Root["🚀 OMVEXORX Next-Gen Ecosystem"]
+flowchart LR
+    Root["🚀 OMVEXORX<br/>Next-Gen Ecosystem"] --> B["🧩 Frameworks & Libraries"]
+    Root --> C["💻 IDE & Developer Tools"]
+    Root --> D["☁️ Software, AI & Cloud"]
+    Root --> E["🧪 Research & Licensing"]
 
-    subgraph DevTools ["🛠️ Developer Platforms"]
-        direction TB
-        B["🧩 Frameworks"] --> B_sub["Web • Backend • Mobile • Desktop • Games"]
-        C["📚 Libraries & Packages"] --> C_sub["Modules • Components • Utilities"]
-        D["🛠️ Developer Tools"] --> D_sub["CLI • Build • Testing • Automation"]
-        E["💻 Code Editor / IDE"] --> E_sub["Intelligent Completion • Extensions"]
-        F["🌐 Website Builder"] --> F_sub["Visual Builder • Templates • Deployment"]
-    end
-
-    subgraph AppsCloud ["☁️ Applications & Cloud"]
-        direction TB
-        G["🖥️ Software Applications"] --> G_sub["SaaS • Desktop • Mobile • Web"]
-        H["🎮 Game Development"] --> H_sub["Games • Engines • Graphics"]
-        I["🔌 APIs & SDKs"] --> I_sub["REST • SDKs • Client Libraries"]
-        J["🤖 AI & Automation"] --> J_sub["AI Tools • Assistants • Workflows"]
-        K["☁️ Cloud & Backend"] --> K_sub["Services • Databases • Infrastructure"]
-    end
-
-    subgraph Strategy ["🧪 Research & Access"]
-        direction TB
-        L["🧪 Research & Experiments"] --> L_sub["Prototypes • Proof of Concepts"]
-        M["🌍 Open Source"] --> M_sub["Public Frameworks & Tools"]
-        N["🔐 Proprietary Tech"] --> N_sub["Commercial & Enterprise Products"]
-    end
-
-    Root --> DevTools
-    Root --> AppsCloud
-    Root --> Strategy
+    B --> B1["Web • Backend • Mobile • Packages"]
+    C --> C1["Code Editor • Website Builder • CLI"]
+    D --> D1["SaaS • Games • APIs • Automation"]
+    E --> E1["Prototypes • Open Source • Proprietary"]
 ```
 
 ---
@@ -311,9 +290,9 @@ We welcome contributions to open-source repositories! Please review the `CONTRIB
 
 ## 🌐 Official Websites
 
-- 🌐 **Official Website:** [https://OMVEXORX.in](https://omvexorx.in/)
-- 🌎 **Global Website:** [https://OMVEXORX.com](https://omvexorx.com/)
-- 🐙 **GitHub Organization:** [https://github.com/OMVEXORX](https://github.com/OMVEXORX)
+- 🌐 **Official Website:** [https://omvexorx.in](https://omvexorx.in)
+- 🌎 **Global Website:** [https://omvexorx.com](https://omvexorx.com)
+- 🐙 **GitHub Organization:** [https://github.com/omvexorx](https://github.com/omvexorx)
 
 ---
 
