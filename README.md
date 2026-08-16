@@ -4,8 +4,8 @@
 
 ### 🚀 Building the Technologies of Tomorrow
 
-[![Official Website](https://img.shields.io/badge/Website-OMVEXORX.in-blue?style=for-the-badge&logo=google-chrome)](https://OMVEXORX.in)
-[![Global Website](https://img.shields.io/badge/Global-OMVEXORX.com-purple?style=for-the-badge&logo=internet-explorer)](https://OMVEXORX.com)
+[![Official Website](https://img.shields.io/badge/Website-OMVEXORX.in-blue?style=for-the-badge&logo=google-chrome)](https://omvexorx.in/)
+[![Global Website](https://img.shields.io/badge/Global-OMVEXORX.com-purple?style=for-the-badge&logo=internet-explorer)](https://omvexorx.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-OMVEXORX-181717?style=for-the-badge&logo=github)](https://github.com/OMVEXORX)
 [![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Open--Source-orange?style=for-the-badge)](#-licensing--contributing)
 
@@ -86,91 +86,37 @@ Our work spans multiple programming languages, operating systems, platforms, and
 ## 🏗️ OMVEXORX Technology Ecosystem
 
 ```mermaid
-graph TD
-    A["OMVEXORX<br/>Next-Generation Technology"]
+flowchart TB
+    Root["🚀 OMVEXORX Next-Gen Ecosystem"]
 
-    A --> B["Frameworks"]
-    A --> C["Libraries & Packages"]
-    A --> D["Developer Tools"]
-    A --> E["Code Editor & IDE"]
-    A --> F["Website Builder"]
-    A --> G["Software Development"]
-    A --> H["Game Development"]
-    A --> I["APIs & SDKs"]
-    A --> J["AI & Automation"]
-    A --> K["Cloud & Backend"]
-    A --> L["Research & Experimental Technology"]
-    A --> M["Selected Open-Source Projects"]
-    A --> N["Proprietary Technologies"]
+    subgraph DevTools ["🛠️ Developer Platforms"]
+        direction TB
+        B["🧩 Frameworks"] --> B_sub["Web • Backend • Mobile • Desktop • Games"]
+        C["📚 Libraries & Packages"] --> C_sub["Modules • Components • Utilities"]
+        D["🛠️ Developer Tools"] --> D_sub["CLI • Build • Testing • Automation"]
+        E["💻 Code Editor / IDE"] --> E_sub["Intelligent Completion • Extensions"]
+        F["🌐 Website Builder"] --> F_sub["Visual Builder • Templates • Deployment"]
+    end
 
-    B --> B1["Web"]
-    B --> B2["Backend"]
-    B --> B3["Frontend"]
-    B --> B4["Desktop"]
-    B --> B5["Mobile"]
-    B --> B6["Game"]
+    subgraph AppsCloud ["☁️ Applications & Cloud"]
+        direction TB
+        G["🖥️ Software Applications"] --> G_sub["SaaS • Desktop • Mobile • Web"]
+        H["🎮 Game Development"] --> H_sub["Games • Engines • Graphics"]
+        I["🔌 APIs & SDKs"] --> I_sub["REST • SDKs • Client Libraries"]
+        J["🤖 AI & Automation"] --> J_sub["AI Tools • Assistants • Workflows"]
+        K["☁️ Cloud & Backend"] --> K_sub["Services • Databases • Infrastructure"]
+    end
 
-    C --> C1["Modules"]
-    C --> C2["Packages"]
-    C --> C3["Components"]
-    C --> C4["Developer Libraries"]
+    subgraph Strategy ["🧪 Research & Access"]
+        direction TB
+        L["🧪 Research & Experiments"] --> L_sub["Prototypes • Proof of Concepts"]
+        M["🌍 Open Source"] --> M_sub["Public Frameworks & Tools"]
+        N["🔐 Proprietary Tech"] --> N_sub["Commercial & Enterprise Products"]
+    end
 
-    D --> D1["CLI Tools"]
-    D --> D2["Build Tools"]
-    D --> D3["Testing"]
-    D --> D4["Debugging"]
-    D --> D5["Automation"]
-
-    E --> E1["Code Editing"]
-    E --> E2["Code Completion"]
-    E --> E3["Debugging"]
-    E --> E4["Extensions"]
-    E --> E5["Multi-Language Support"]
-
-    F --> F1["Visual Builder"]
-    F --> F2["Templates"]
-    F --> F3["Components"]
-    F --> F4["Publishing & Deployment"]
-
-    G --> G1["Web"]
-    G --> G2["Desktop"]
-    G --> G3["Mobile"]
-    G --> G4["Cloud"]
-    G --> G5["SaaS"]
-
-    H --> H1["Games"]
-    H --> H2["Game Frameworks"]
-    H --> H3["Game Tools"]
-    H --> H4["Game Technologies"]
-
-    I --> I1["APIs"]
-    I --> I2["SDKs"]
-    I --> I3["Client Libraries"]
-    I --> I4["Integrations"]
-
-    J --> J1["AI Applications"]
-    J --> J2["AI Developer Tools"]
-    J --> J3["Automation"]
-    J --> J4["AI APIs"]
-
-    K --> K1["Backend"]
-    K --> K2["Cloud Services"]
-    K --> K3["Infrastructure"]
-    K --> K4["Deployment"]
-
-    L --> L1["Research"]
-    L --> L2["Prototypes"]
-    L --> L3["Experiments"]
-    L --> L4["Proof of Concepts"]
-
-    M --> M1["Open-Source Frameworks"]
-    M --> M2["Open-Source Libraries"]
-    M --> M3["Open-Source Tools"]
-
-    N --> N1["Commercial Software"]
-    N --> N2["Private Source Code"]
-    N --> N3["Internal Technologies"]
-    N --> N4["Unreleased Products"]
+    Root --> DevTools
+    Root --> AppsCloud
+    Root --> Strategy
 ```
 
 ---
@@ -365,8 +311,8 @@ We welcome contributions to open-source repositories! Please review the `CONTRIB
 
 ## 🌐 Official Websites
 
-- 🌐 **Official Website:** [https://OMVEXORX.in](https://OMVEXORX.in)
-- 🌎 **Global Website:** [https://OMVEXORX.com](https://OMVEXORX.com)
+- 🌐 **Official Website:** [https://OMVEXORX.in](https://omvexorx.in/)
+- 🌎 **Global Website:** [https://OMVEXORX.com](https://omvexorx.com/)
 - 🐙 **GitHub Organization:** [https://github.com/OMVEXORX](https://github.com/OMVEXORX)
 
 ---
